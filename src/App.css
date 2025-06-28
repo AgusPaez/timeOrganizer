@@ -1,5 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #352f4b, #746e8f);
+  min-height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+}
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  #root {
+    padding: 0.5rem;
+  }
 }
