@@ -32,7 +32,7 @@ export const ResumenContrato = () => {
     <div className="bg-gray-900 border border-gray-700 rounded-xl p-5 shadow-inner w-full  space-y-3">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-semibold text-white tracking-wide">
-          Contrato
+          Contrato Antonella Rabiti
         </h2>
         <span className="text-sm text-gray-400">🗓️</span>
       </div>
